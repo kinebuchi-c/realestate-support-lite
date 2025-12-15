@@ -1,0 +1,863 @@
+{
+  "common": {
+    "siteName": "Real Estate Support",
+    "home": "Home",
+    "rental": "Rental",
+    "purchase": "Purchase",
+    "language": "Language",
+    "back": "Back",
+    "next": "Next",
+    "important": "Important",
+    "note": "Note",
+    "point": "Key Point",
+    "save": "Save",
+    "admin": "Admin"
+  },
+  "home": {
+    "title": "Real Estate Guide for Foreign Residents",
+    "subtitle": "Supporting your home search in Japan",
+    "selectService": "Please select a service",
+    "rentalTitle": "Rent a Property",
+    "rentalDesc": "Process and information for renting an apartment",
+    "purchaseTitle": "Buy a Property",
+    "purchaseDesc": "Process and information for purchasing real estate"
+  },
+  "rental": {
+    "title": "Renting a Property",
+    "subtitle": "How to rent an apartment in Japan",
+    "categories": {
+      "flow": "Rental Process",
+      "flowDesc": "Steps from property search to move-in",
+      "costs": "Cost Breakdown",
+      "costsDesc": "Details of initial and monthly costs",
+      "guarantee": "Guarantee Companies",
+      "guaranteeDesc": "How guarantee companies work and screening tips",
+      "documents": "Required Documents",
+      "documentsDesc": "List of documents needed for rental contracts",
+      "terms": "Terminology",
+      "termsDesc": "Explanation of real estate terms",
+      "rules": "House Rules",
+      "rulesDesc": "Manners in Japanese rental housing",
+      "faq": "FAQ",
+      "faqDesc": "Common questions from foreign residents"
+    },
+    "flow": {
+      "title": "Rental Process",
+      "conclusion": "Conclusion: It takes about 2-4 weeks to complete the contract",
+      "steps": {
+        "search": {
+          "title": "1. Property Search",
+          "desc": "Find your desired property through real estate agents or online portals",
+          "points": ["Decide on area, rent, and layout", "Consult with a real estate agent", "Schedule viewings"]
+        },
+        "viewing": {
+          "title": "2. Property Viewing",
+          "desc": "Visit and inspect the property",
+          "points": ["Check room condition", "Check surrounding environment", "Test equipment and facilities"]
+        },
+        "application": {
+          "title": "3. Application",
+          "desc": "Apply for your chosen property",
+          "points": ["Fill out application form", "Prepare required documents", "Arrange guarantor or guarantee company"]
+        },
+        "screening": {
+          "title": "4. Screening",
+          "desc": "Tenant screening is conducted (about 3-7 days)",
+          "points": ["Income verification", "Residence status check", "Guarantee company screening"]
+        },
+        "contract": {
+          "title": "5. Contract",
+          "desc": "Sign the lease agreement",
+          "points": ["Receive important matter explanation", "Sign and seal contract", "Pay initial costs"]
+        },
+        "movein": {
+          "title": "6. Move-in",
+          "desc": "Receive keys and move in",
+          "points": ["Receive keys", "Set up utilities", "Check room condition at move-in"]
+        }
+      },
+      "cautions": ["You may be rejected during screening", "Prepare required documents early", "Listen carefully to the important matter explanation before signing"]
+    },
+    "costs": {
+      "title": "Cost Breakdown",
+      "conclusion": "Conclusion: Initial costs are typically 4-6 months' rent",
+      "initial": {
+        "title": "Initial Costs",
+        "deposit": {
+          "name": "Security Deposit (Shikikin)",
+          "desc": "Refundable deposit for restoration costs when moving out",
+          "amount": "1-2 months' rent"
+        },
+        "keyMoney": {
+          "name": "Key Money (Reikin)",
+          "desc": "Non-refundable payment to the landlord as a gift",
+          "amount": "0-2 months' rent"
+        },
+        "agentFee": {
+          "name": "Agent Fee",
+          "desc": "Commission paid to the real estate agency",
+          "amount": "1 month's rent + tax"
+        },
+        "advanceRent": {
+          "name": "Advance Rent",
+          "desc": "Rent for the move-in month (may be prorated)",
+          "amount": "1-2 months' rent"
+        },
+        "guaranteeFee": {
+          "name": "Guarantee Company Fee",
+          "desc": "Fee for using a guarantee company",
+          "amount": "0.5-1 month's rent"
+        },
+        "insurance": {
+          "name": "Fire Insurance",
+          "desc": "Required fire insurance",
+          "amount": "¥15,000-20,000/year"
+        },
+        "keyChange": {
+          "name": "Key Change Fee",
+          "desc": "Cost to change locks for security",
+          "amount": "¥10,000-20,000"
+        }
+      },
+      "monthly": {
+        "title": "Monthly Costs",
+        "rent": {
+          "name": "Rent",
+          "desc": "Monthly rental fee"
+        },
+        "management": {
+          "name": "Management Fee",
+          "desc": "Fee for common area maintenance",
+          "amount": "About 5-10% of rent"
+        },
+        "utilities": {
+          "name": "Utilities",
+          "desc": "Electricity, gas, and water",
+          "amount": "¥10,000-20,000/month"
+        }
+      },
+      "cautions": ["Costs vary by region and property", "Some properties have zero deposit/key money", "Confirm total costs before signing"]
+    },
+    "guarantee": {
+      "title": "About Guarantee Companies",
+      "conclusion": "Conclusion: With a guarantee company, you can sign a contract without a Japanese guarantor",
+      "whatIs": {
+        "title": "What is a Guarantee Company?",
+        "desc": "A guarantee company pays the landlord on behalf of the tenant if they cannot pay rent. About 80% of rental properties in Japan require or recommend using a guarantee company."
+      },
+      "benefits": {
+        "title": "Benefits of Using a Guarantee Company",
+        "list": [
+          "No Japanese co-signer (guarantor) required",
+          "Easier for foreigners to sign contracts",
+          "Fast screening (same day to 3 days)",
+          "Some companies only require an emergency contact"
+        ]
+      },
+      "cost": {
+        "title": "Guarantee Company Costs",
+        "initial": "Initial fee: 50-100% of monthly rent",
+        "renewal": "Renewal fee: ¥10,000-20,000/year or 10-30% of rent",
+        "note": "Fee structures vary by company"
+      },
+      "screening": {
+        "title": "Screening Criteria",
+        "items": {
+          "income": {
+            "name": "Income Stability",
+            "desc": "Monthly income should be 3x rent. Full-time employees have advantage, but part-timers with long tenure can pass"
+          },
+          "visa": {
+            "name": "Visa Status & Duration",
+            "desc": "Visa duration should ideally exceed contract period. Work visa, student visa, permanent residence, etc."
+          },
+          "history": {
+            "name": "Payment History",
+            "desc": "Past rent or credit card payment delays may affect screening"
+          },
+          "contact": {
+            "name": "Emergency Contact",
+            "desc": "Having an emergency contact in Japan improves your chances"
+          }
+        }
+      },
+      "documents": {
+        "title": "Documents for Guarantee Company Application",
+        "required": [
+          "Residence Card (both sides copy)",
+          "Passport (photo page)",
+          "Income certificate (tax withholding slip, 3 months payslips, or tax return)",
+          "Employment information (company name, address, phone, years employed)"
+        ],
+        "optional": [
+          "Bank balance certificate (if income proof is difficult)",
+          "Enrollment certificate (for students)",
+          "Job offer letter (if changing jobs)"
+        ]
+      },
+      "tips": {
+        "title": "Tips to Pass Screening",
+        "list": [
+          "Choose a property with rent below 1/3 of your income",
+          "Prepare all documents in advance",
+          "Fill in employment information accurately",
+          "Secure an emergency contact (friend, colleague, language school, etc.)",
+          "Choose a guarantee company experienced with foreigners"
+        ]
+      },
+      "foreignerFriendly": {
+        "title": "Foreigner-Friendly Guarantee Companies",
+        "desc": "These companies are experienced with foreign applicants",
+        "companies": ["GTN (Global Trust Networks)", "JID", "Casa", "Nihon Safety", "Zenhoren"]
+      },
+      "cautions": ["Even if rejected by one company, another might approve you", "You can apply to multiple guarantee companies", "Ask your real estate agent to recommend foreigner-friendly companies"]
+    },
+    "documents": {
+      "title": "Required Documents for Rental",
+      "conclusion": "Conclusion: Prepare documents in advance for a smooth contract process",
+      "basic": {
+        "title": "Basic Documents (Required)",
+        "items": {
+          "residenceCard": {
+            "name": "Residence Card",
+            "desc": "Both sides copy required. Check expiration date.",
+            "where": "Issued at entry or Immigration Bureau"
+          },
+          "passport": {
+            "name": "Passport",
+            "desc": "Photo page copy. Visa page may also be required.",
+            "where": "Issued in home country"
+          },
+          "certificate": {
+            "name": "Resident Certificate (Juminhyo)",
+            "desc": "Issued within 3 months. May need all household members.",
+            "where": "City/Ward office or convenience store with My Number Card"
+          }
+        }
+      },
+      "income": {
+        "title": "Income Proof Documents",
+        "items": {
+          "employment": {
+            "name": "Employment Certificate",
+            "desc": "Issued by employer. States company, position, tenure, salary.",
+            "where": "Request from HR department"
+          },
+          "payslip": {
+            "name": "Pay Slips",
+            "desc": "Last 3 months. Proves income stability.",
+            "where": "Issued monthly by employer"
+          },
+          "taxCertificate": {
+            "name": "Tax Withholding Certificate",
+            "desc": "Proves previous year income. Issued at year end.",
+            "where": "Issued by employer around January"
+          },
+          "bankStatement": {
+            "name": "Bank Balance Certificate",
+            "desc": "Alternative if income proof is difficult. 1-2 years rent in savings helps.",
+            "where": "Bank branch (fee applies)"
+          }
+        }
+      },
+      "student": {
+        "title": "For Students",
+        "items": {
+          "studentId": {
+            "name": "Student ID",
+            "desc": "Proves current enrollment.",
+            "where": "Issued by school"
+          },
+          "enrollment": {
+            "name": "Enrollment Certificate",
+            "desc": "Official school enrollment proof.",
+            "where": "School administration office"
+          },
+          "sponsor": {
+            "name": "Remittance/Scholarship Certificate",
+            "desc": "Proof of family support or scholarship.",
+            "where": "Bank transfer history or scholarship organization"
+          }
+        }
+      },
+      "other": {
+        "title": "Other",
+        "items": {
+          "seal": {
+            "name": "Personal Seal (Inkan)",
+            "desc": "Used to stamp contracts. Regular seal usually OK.",
+            "where": "100 yen shop or seal shop"
+          },
+          "photo": {
+            "name": "ID Photo",
+            "desc": "3x4cm photo. May need 1-2.",
+            "where": "Photo booth or photo shop"
+          },
+          "emergency": {
+            "name": "Emergency Contact",
+            "desc": "Contact person reachable in Japan.",
+            "where": "Friend, colleague, school staff, etc."
+          }
+        }
+      },
+      "tips": [
+        "Documents should be in Japanese. Foreign documents may need translation",
+        "Check residence card is not expired",
+        "Most documents must be issued within 3 months",
+        "Prepare clear copies",
+        "Confirm requirements with real estate agent in advance"
+      ]
+    },
+    "terms": {
+      "title": "Terminology",
+      "list": {
+        "1R": {
+          "name": "1R (One Room)",
+          "desc": "A single room with kitchen area combined"
+        },
+        "1K": {
+          "name": "1K",
+          "desc": "One room with a separate kitchen"
+        },
+        "1DK": {
+          "name": "1DK",
+          "desc": "One room with a dining kitchen"
+        },
+        "1LDK": {
+          "name": "1LDK",
+          "desc": "One room with a living dining kitchen"
+        },
+        "tatami": {
+          "name": "Tatami",
+          "desc": "Traditional Japanese floor mat. 1 tatami ≈ 1.65 m²"
+        },
+        "UB": {
+          "name": "UB (Unit Bath)",
+          "desc": "Combined bathroom with bath, toilet, and sink"
+        },
+        "autoLock": {
+          "name": "Auto-lock",
+          "desc": "Building with automatic locking system"
+        },
+        "flooring": {
+          "name": "Flooring",
+          "desc": "Wooden floor material"
+        },
+        "balcony": {
+          "name": "Balcony",
+          "desc": "Space for drying laundry"
+        },
+        "parking": {
+          "name": "Parking",
+          "desc": "Parking space (may have additional fee)"
+        }
+      }
+    },
+    "rules": {
+      "title": "House Rules",
+      "conclusion": "Conclusion: Consideration for neighbors is important in Japanese rental housing",
+      "list": {
+        "noise": {
+          "name": "Noise Awareness",
+          "desc": "Be especially quiet at night (after 9 PM). Be mindful of music and conversation volume."
+        },
+        "garbage": {
+          "name": "Garbage Disposal",
+          "desc": "Dispose of garbage on designated days, times, and locations. Separation is required."
+        },
+        "shoes": {
+          "name": "Remove Shoes",
+          "desc": "Remove shoes indoors. Take off shoes at the entrance."
+        },
+        "pets": {
+          "name": "Pets",
+          "desc": "Pets are prohibited unless the property allows them. Check your contract."
+        },
+        "smoking": {
+          "name": "Smoking",
+          "desc": "Many properties prohibit indoor smoking. Balcony smoking may also be restricted."
+        },
+        "guests": {
+          "name": "Guests",
+          "desc": "Long-term guests may need to be reported to the landlord."
+        },
+        "renovation": {
+          "name": "Renovation/DIY",
+          "desc": "Modifications like drilling holes are often prohibited."
+        }
+      },
+      "cautions": ["Rule violations may result in eviction", "Ask the landlord or management company if unsure"]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "list": {
+        "guarantor": {
+          "q": "What if I don't have a guarantor?",
+          "a": "You can use a guarantee company. Many properties accept guarantee companies. If you pass their screening, you can sign a contract without a personal guarantor."
+        },
+        "japanese": {
+          "q": "Can I rent without speaking Japanese?",
+          "a": "Yes, by using a real estate agency that offers foreign language support or an interpreter service. Contracts are in Japanese, but some agencies provide translations."
+        },
+        "documents": {
+          "q": "What documents are required?",
+          "a": "Common documents: Residence card, passport, income proof (employment certificate, pay slips), resident certificate. Additional documents may be required depending on the property."
+        },
+        "refused": {
+          "q": "Can I be refused because I'm a foreigner?",
+          "a": "Unfortunately, some landlords refuse foreign tenants. We recommend looking for foreigner-friendly properties or using agencies experienced with foreign clients."
+        },
+        "shortTerm": {
+          "q": "Can I rent for a short period?",
+          "a": "Standard rental contracts are usually 2 years. For short-term stays, consider monthly or weekly apartments."
+        },
+        "internet": {
+          "q": "How do I get internet?",
+          "a": "Some properties include free internet. Otherwise, you need to contract with a provider yourself. Mobile Wi-Fi is also an option."
+        }
+      }
+    }
+  },
+  "purchase": {
+    "title": "Buying Property",
+    "subtitle": "How to purchase real estate in Japan",
+    "categories": {
+      "flow": "Purchase Process",
+      "flowDesc": "Steps from property search to handover",
+      "costs": "Cost Breakdown",
+      "costsDesc": "Details of purchase costs and expenses",
+      "documents": "Required Documents",
+      "documentsDesc": "List of documents needed for purchase",
+      "terms": "Terminology",
+      "termsDesc": "Explanation of real estate sale terms",
+      "rules": "Important Notes",
+      "rulesDesc": "Points to note when foreigners purchase",
+      "faq": "FAQ",
+      "faqDesc": "Common questions from foreign buyers"
+    },
+    "flow": {
+      "title": "Purchase Process",
+      "conclusion": "Conclusion: The purchase process takes about 1-3 months",
+      "steps": {
+        "budget": {
+          "title": "1. Budget Planning",
+          "desc": "Determine your affordable price range",
+          "points": ["Confirm available funds", "Pre-approval for mortgage", "Set total budget including fees"]
+        },
+        "search": {
+          "title": "2. Property Search",
+          "desc": "Find your desired property",
+          "points": ["Decide on area, price, and conditions", "Consult with real estate agency", "Schedule viewings"]
+        },
+        "viewing": {
+          "title": "3. Property Viewing",
+          "desc": "Visit and inspect the property",
+          "points": ["Check building condition", "Check surrounding environment", "Check management status (for condos)"]
+        },
+        "offer": {
+          "title": "4. Purchase Offer",
+          "desc": "Express your intention to purchase",
+          "points": ["Submit purchase application", "Price negotiation", "Full mortgage application"]
+        },
+        "contract": {
+          "title": "5. Sales Contract",
+          "desc": "Sign the sales contract",
+          "points": ["Important matter explanation", "Review and sign contract", "Pay deposit (5-10% of price)"]
+        },
+        "loan": {
+          "title": "6. Loan Contract",
+          "desc": "Finalize the mortgage contract",
+          "points": ["Contract with financial institution", "Group credit life insurance", "Mortgage registration"]
+        },
+        "settlement": {
+          "title": "7. Settlement & Handover",
+          "desc": "Pay balance and receive the property",
+          "points": ["Balance payment", "Ownership transfer registration", "Key handover"]
+        }
+      },
+      "cautions": ["Mortgage approval may take time", "Carefully review the important matter explanation before contract", "Get support from professionals (agency, judicial scrivener)"]
+    },
+    "costs": {
+      "title": "Cost Breakdown",
+      "conclusion": "Conclusion: Additional costs are about 6-10% of property price",
+      "purchase": {
+        "title": "Purchase Costs",
+        "price": {
+          "name": "Property Price",
+          "desc": "Sale price"
+        },
+        "stamp": {
+          "name": "Stamp Duty",
+          "desc": "Revenue stamp for contract",
+          "amount": "¥10,000-60,000"
+        },
+        "registration": {
+          "name": "Registration Fees",
+          "desc": "Ownership transfer and mortgage registration",
+          "amount": "1-2% of price"
+        },
+        "agentFee": {
+          "name": "Agent Fee",
+          "desc": "Commission to real estate agency",
+          "amount": "3% of price + ¥60,000 + tax"
+        },
+        "loanFee": {
+          "name": "Loan Fees",
+          "desc": "Loan arrangement and guarantee fees",
+          "amount": "2-3% of loan amount"
+        },
+        "insurance": {
+          "name": "Fire Insurance",
+          "desc": "Building fire insurance",
+          "amount": "¥100,000-300,000 (multi-year)"
+        },
+        "acquisition": {
+          "name": "Acquisition Tax",
+          "desc": "Tax after purchase",
+          "amount": "3-4% of assessed value"
+        }
+      },
+      "ongoing": {
+        "title": "Ongoing Costs",
+        "propertyTax": {
+          "name": "Property Tax",
+          "desc": "Annual tax",
+          "amount": "1.4% of assessed value/year"
+        },
+        "cityTax": {
+          "name": "City Planning Tax",
+          "desc": "In urban planning areas",
+          "amount": "0.3% of assessed value/year"
+        },
+        "management": {
+          "name": "Management Fee",
+          "desc": "For condominiums",
+          "amount": "¥10,000-30,000/month"
+        },
+        "repair": {
+          "name": "Repair Reserve",
+          "desc": "For condominiums",
+          "amount": "¥10,000-30,000/month"
+        }
+      },
+      "cautions": ["Costs vary by property and region", "Housing loan tax deduction may apply", "Used properties may not have consumption tax"]
+    },
+    "documents": {
+      "title": "Required Documents for Purchase",
+      "conclusion": "Conclusion: Required documents differ for Japan residents and overseas residents",
+      "japanResident": {
+        "title": "Foreign Residents in Japan",
+        "identity": {
+          "title": "ID Documents",
+          "items": {
+            "residenceCard": {
+              "name": "Residence Card",
+              "desc": "Must be valid. Both sides copy needed.",
+              "where": "Immigration Bureau"
+            },
+            "passport": {
+              "name": "Passport",
+              "desc": "Photo page, visa page, entry stamp page.",
+              "where": "Issued in home country"
+            },
+            "juminhyo": {
+              "name": "Resident Certificate",
+              "desc": "Issued within 3 months. Without My Number.",
+              "where": "City/Ward office or convenience store"
+            },
+            "seal": {
+              "name": "Seal Certificate",
+              "desc": "Registered seal required. Issued within 3 months.",
+              "where": "City/Ward office after seal registration"
+            },
+            "registeredSeal": {
+              "name": "Registered Seal (Jitsu-in)",
+              "desc": "Personal seal for contracts. Must be registered.",
+              "where": "Seal shop, register at city/ward office"
+            }
+          }
+        },
+        "income": {
+          "title": "Income/Fund Proof (for Loans)",
+          "items": {
+            "taxCertificate": {
+              "name": "Tax Certificate",
+              "desc": "Past 2-3 years. Proves income and tax payments.",
+              "where": "City office (tax) / Tax office (payment)"
+            },
+            "employment": {
+              "name": "Employment Certificate",
+              "desc": "Company, position, tenure, salary.",
+              "where": "HR department"
+            },
+            "payslip": {
+              "name": "Pay Slips / Tax Withholding",
+              "desc": "Last 3 months pay slips, previous year tax slip.",
+              "where": "Employer"
+            },
+            "bankStatement": {
+              "name": "Bank Statement",
+              "desc": "Proves down payment funds. Transfer history helpful.",
+              "where": "Bank branch"
+            }
+          }
+        }
+      },
+      "overseasResident": {
+        "title": "Foreign Residents Abroad",
+        "identity": {
+          "title": "ID Documents",
+          "items": {
+            "passport": {
+              "name": "Passport",
+              "desc": "May need notarization (Apostille).",
+              "where": "Home country, notarize at public office"
+            },
+            "signature": {
+              "name": "Signature Certificate",
+              "desc": "Replaces seal certificate. Obtained at Japanese embassy.",
+              "where": "Japanese Embassy/Consulate"
+            },
+            "address": {
+              "name": "Address Proof",
+              "desc": "Utility bills, bank statements. Translation/notarization needed.",
+              "where": "Various institutions, translation company"
+            }
+          }
+        },
+        "funds": {
+          "title": "Fund Proof",
+          "items": {
+            "bankStatement": {
+              "name": "Bank Balance Certificate",
+              "desc": "Proves purchase funds. English version preferred.",
+              "where": "Bank branch"
+            },
+            "sourceOfFunds": {
+              "name": "Source of Funds Proof",
+              "desc": "For anti-money laundering. Documents explaining fund origin.",
+              "where": "Income proof, gift proof, investment proof, etc."
+            },
+            "remittance": {
+              "name": "Remittance Plan",
+              "desc": "Explains planned transfer from overseas to Japan.",
+              "where": "Self-prepared, bank confirmation"
+            }
+          }
+        }
+      },
+      "loan": {
+        "title": "Additional Documents for Mortgage",
+        "items": {
+          "permanentResidence": {
+            "name": "Permanent Residence Proof",
+            "desc": "If permanent resident, shown on residence card.",
+            "where": "Residence card"
+          },
+          "healthInsurance": {
+            "name": "Health Insurance Card",
+            "desc": "Employee insurance or National Health Insurance.",
+            "where": "Employer or city/ward office"
+          },
+          "pensionRecord": {
+            "name": "Pension Record",
+            "desc": "Proves pension enrollment status.",
+            "where": "Pension office, Nenkin Net"
+          },
+          "taxReturn": {
+            "name": "Tax Return (Self-employed)",
+            "desc": "Past 3 years. Proves business income.",
+            "where": "Copy submitted to tax office"
+          }
+        }
+      },
+      "tips": [
+        "Documents should be in Japanese. Foreign documents need translation",
+        "Translation can be by translation company or self-translated with signature",
+        "Seal/resident certificates usually need to be within 3 months",
+        "Overseas documents may need Apostille (notarization)",
+        "Confirm requirements with real estate agent/judicial scrivener",
+        "Allow 2-4 weeks for document preparation"
+      ]
+    },
+    "terms": {
+      "title": "Terminology",
+      "list": {
+        "newBuilt": {
+          "name": "New Construction",
+          "desc": "Built within 1 year and never occupied"
+        },
+        "usedProperty": {
+          "name": "Used/Pre-owned",
+          "desc": "Property that has been previously occupied"
+        },
+        "mansion": {
+          "name": "Mansion",
+          "desc": "In Japan, refers to condominiums/apartments"
+        },
+        "detachedHouse": {
+          "name": "Detached House",
+          "desc": "Independent single-family house"
+        },
+        "landRight": {
+          "name": "Land Rights",
+          "desc": "Ownership or leasehold"
+        },
+        "floorArea": {
+          "name": "Floor Area",
+          "desc": "Actual usable floor space"
+        },
+        "buildingAge": {
+          "name": "Building Age",
+          "desc": "Years since construction"
+        },
+        "deposit": {
+          "name": "Deposit",
+          "desc": "Earnest money at contract (5-10% of price)"
+        },
+        "mortgage": {
+          "name": "Mortgage/Housing Loan",
+          "desc": "Financing for real estate purchase"
+        },
+        "titleSearch": {
+          "name": "Registry Certificate",
+          "desc": "Official document of property rights"
+        }
+      }
+    },
+    "rules": {
+      "title": "Important Notes for Foreign Buyers",
+      "conclusion": "Conclusion: Foreigners can purchase Japanese real estate, but there are some considerations",
+      "list": {
+        "eligibility": {
+          "name": "Eligibility",
+          "desc": "Foreigners can purchase Japanese real estate. Residence status is not required, but permanent residency is often required for mortgages."
+        },
+        "loan": {
+          "name": "Mortgage",
+          "desc": "Without permanent residency, mortgage approval is strict. You may need to pay cash or find banks offering foreigner-specific loans."
+        },
+        "tax": {
+          "name": "Taxes",
+          "desc": "Owning Japanese real estate requires annual property and city planning taxes. Tax returns may be necessary."
+        },
+        "management": {
+          "name": "Property Management",
+          "desc": "If you don't live in Japan, you need to hire a property management company."
+        },
+        "reporting": {
+          "name": "Reporting Obligation",
+          "desc": "Foreign buyers may need to report to the Ministry of Finance."
+        }
+      },
+      "cautions": ["Consult professionals (agency, tax accountant, judicial scrivener)", "Contracts are in Japanese. Consider translation services"]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "list": {
+        "foreigner": {
+          "q": "Can foreigners buy property in Japan?",
+          "a": "Yes, foreigners can purchase Japanese real estate without restrictions. Residence status is not required. However, there are conditions for mortgage loans."
+        },
+        "loan": {
+          "q": "Can foreigners get a mortgage?",
+          "a": "With permanent residency, most banks will lend. Without it, you may qualify if your spouse is Japanese, you have long employment history, or have a large down payment."
+        },
+        "documents": {
+          "q": "What documents are required?",
+          "a": "Passport, residence card (if living in Japan), seal certificate, resident certificate, income proof. Overseas residents may need notarized documents."
+        },
+        "remittance": {
+          "q": "Can I buy with overseas remittance?",
+          "a": "Yes. However, proof of fund source is required for anti-money laundering. Start the process early as transfers take time."
+        },
+        "rental": {
+          "q": "Can I rent out my purchased property?",
+          "a": "Yes. However, tax returns are required. We recommend using a property management company for tenant relations."
+        },
+        "sell": {
+          "q": "Can I sell my property?",
+          "a": "Yes, you can sell anytime. Capital gains tax applies on profits. Tax rates differ based on ownership period."
+        }
+      }
+    }
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "subtitle": "Manage company info and content",
+    "demoMode": "Demo Mode - Data is stored in your browser",
+    "menu": {
+      "company": {
+        "title": "Company Info",
+        "desc": "Set company name, contact, and supported languages"
+      },
+      "content": {
+        "title": "Content Settings",
+        "desc": "Select which content to display"
+      },
+      "preview": {
+        "title": "Preview",
+        "desc": "View customer-facing screens"
+      }
+    },
+    "howToUse": {
+      "title": "How to Use",
+      "step1": "Register company info to set what customers see",
+      "step2": "In content settings, select items to display",
+      "step3": "Use preview to check the actual display"
+    },
+    "company": {
+      "title": "Company Information",
+      "fields": {
+        "name": "Company Name (Japanese)",
+        "nameEn": "Company Name (English)",
+        "phone": "Phone Number",
+        "email": "Email Address",
+        "address": "Address (Japanese)",
+        "addressEn": "Address (English)",
+        "license": "Real Estate License Number",
+        "website": "Website",
+        "languages": "Supported Languages"
+      },
+      "saved": "Saved successfully",
+      "note": "In this demo, data is stored in your browser. In production, data would be stored on a server."
+    },
+    "content": {
+      "title": "Content Settings",
+      "rental": {
+        "title": "Rental Content",
+        "sections": {
+          "flow": "Rental Process",
+          "costs": "Cost Breakdown",
+          "guarantee": "Guarantee Companies",
+          "documents": "Required Documents",
+          "terms": "Terminology",
+          "rules": "House Rules",
+          "faq": "FAQ"
+        }
+      },
+      "purchase": {
+        "title": "Purchase Content",
+        "sections": {
+          "flow": "Purchase Process",
+          "costs": "Cost Breakdown",
+          "documents": "Required Documents",
+          "terms": "Terminology",
+          "rules": "Important Notes",
+          "faq": "FAQ"
+        }
+      },
+      "messages": {
+        "title": "Custom Messages",
+        "welcome": "Homepage Message",
+        "welcomePlaceholder": "Enter welcome message for customers...",
+        "rentalNote": "Rental Page Message",
+        "rentalPlaceholder": "Enter additional notes for rental...",
+        "purchaseNote": "Purchase Page Message",
+        "purchasePlaceholder": "Enter additional notes for purchase..."
+      },
+      "saved": "Saved successfully",
+      "note": "Unchecked items will not be shown to customers."
+    }
+  }
+}
