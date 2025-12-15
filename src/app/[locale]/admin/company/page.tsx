@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
 
 interface CompanyInfo {
@@ -62,29 +62,42 @@ export default function AdminCompanyPage() {
     setTimeout(() => setSaved(false), 3000);
   };
 
+  const locale = useLocale();
+
+  const languageLabels: Record<string, Record<string, string>> = {
+    ja: {
+      ja: "日本語", en: "英語", zh: "中国語（簡体）", "zh-tw": "中国語（繁体）",
+      ko: "韓国語", vi: "ベトナム語", tl: "タガログ語", th: "タイ語",
+      id: "インドネシア語", ms: "マレー語", my: "ミャンマー語", ne: "ネパール語",
+      hi: "ヒンディー語", bn: "ベンガル語", ur: "ウルドゥー語", pt: "ポルトガル語",
+      es: "スペイン語", fr: "フランス語", de: "ドイツ語", ru: "ロシア語", ar: "アラビア語",
+    },
+    en: {
+      ja: "Japanese", en: "English", zh: "Chinese (Simplified)", "zh-tw": "Chinese (Traditional)",
+      ko: "Korean", vi: "Vietnamese", tl: "Tagalog", th: "Thai",
+      id: "Indonesian", ms: "Malay", my: "Burmese", ne: "Nepali",
+      hi: "Hindi", bn: "Bengali", ur: "Urdu", pt: "Portuguese",
+      es: "Spanish", fr: "French", de: "German", ru: "Russian", ar: "Arabic",
+    },
+    zh: {
+      ja: "日语", en: "英语", zh: "中文（简体）", "zh-tw": "中文（繁体）",
+      ko: "韩语", vi: "越南语", tl: "他加禄语", th: "泰语",
+      id: "印尼语", ms: "马来语", my: "缅甸语", ne: "尼泊尔语",
+      hi: "印地语", bn: "孟加拉语", ur: "乌尔都语", pt: "葡萄牙语",
+      es: "西班牙语", fr: "法语", de: "德语", ru: "俄语", ar: "阿拉伯语",
+    },
+  };
+
   const languages = [
-    { code: "ja", label: "日本語" },
-    { code: "en", label: "English" },
-    { code: "zh", label: "中文" },
-    { code: "zh-tw", label: "繁體中文" },
-    { code: "ko", label: "한국어" },
-    { code: "vi", label: "Tiếng Việt" },
-    { code: "tl", label: "Tagalog" },
-    { code: "th", label: "ไทย" },
-    { code: "id", label: "Bahasa Indonesia" },
-    { code: "ms", label: "Bahasa Melayu" },
-    { code: "my", label: "မြန်မာ" },
-    { code: "ne", label: "नेपाली" },
-    { code: "hi", label: "हिन्दी" },
-    { code: "bn", label: "বাংলা" },
-    { code: "ur", label: "اردو" },
-    { code: "pt", label: "Português" },
-    { code: "es", label: "Español" },
-    { code: "fr", label: "Français" },
-    { code: "de", label: "Deutsch" },
-    { code: "ru", label: "Русский" },
-    { code: "ar", label: "العربية" },
+    "ja", "en", "zh", "zh-tw", "ko", "vi", "tl", "th",
+    "id", "ms", "my", "ne", "hi", "bn", "ur", "pt",
+    "es", "fr", "de", "ru", "ar",
   ];
+
+  const getLanguageLabel = (code: string) => {
+    const labels = languageLabels[locale] || languageLabels.en;
+    return labels[code] || code;
+  };
 
   return (
     <div className="max-w-2xl mx-auto">
@@ -214,18 +227,18 @@ export default function AdminCompanyPage() {
               {t("fields.languages")}
             </label>
             <div className="flex flex-wrap gap-2">
-              {languages.map((lang) => (
+              {languages.map((langCode) => (
                 <button
-                  key={lang.code}
+                  key={langCode}
                   type="button"
-                  onClick={() => handleLanguageToggle(lang.code)}
+                  onClick={() => handleLanguageToggle(langCode)}
                   className={`px-4 py-2 rounded-lg border text-sm font-medium transition-colors ${
-                    companyInfo.supportedLanguages.includes(lang.code)
+                    companyInfo.supportedLanguages.includes(langCode)
                       ? "bg-primary-100 border-primary-500 text-primary-700"
                       : "bg-white border-slate-300 text-slate-600 hover:border-slate-400"
                   }`}
                 >
-                  {lang.label}
+                  {getLanguageLabel(langCode)}
                 </button>
               ))}
             </div>
